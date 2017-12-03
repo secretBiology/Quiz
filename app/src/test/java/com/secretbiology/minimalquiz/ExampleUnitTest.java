@@ -1,4 +1,4 @@
-package com.secretbiology.quiz;
+package com.secretbiology.minimalquiz;
 
 import org.junit.Test;
 

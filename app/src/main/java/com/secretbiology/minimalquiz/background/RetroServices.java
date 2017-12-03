@@ -1,4 +1,4 @@
-package com.secretbiology.quiz.background;
+package com.secretbiology.minimalquiz.background;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

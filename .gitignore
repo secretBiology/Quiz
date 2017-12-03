@@ -7,7 +7,7 @@
 /build
 /captures
 .externalNativeBuild
-.idea/misc.xml
 .idea/
-gradle/wrapper/
+app/google-services.json
 gradle.properties
+gradle/wrapper/

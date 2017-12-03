@@ -1,5 +1,28 @@
 <resources>
-    <string name="app_name">Simple Quiz</string>
+    <string name="app_name">Minimal Quiz</string>
 
-    <string name="ans_bracket">(%d)</string>
+    <string name="dismiss">Dismiss</string>
+
+    <string name="oops">Oops…</string>
+    <string name="new_game">New Game</string>
+    <string name="game_settings">Game Settings</string>
+    <string name="game_type">Game type</string>
+    <string name="no_of_questions">Number of questions : %d</string>
+    <string name="time_per_question">Time per question (max game time: %d sec)</string>
+    <string name="single_player">Single Player</string>
+    <string name="multi_player">Multi-Player</string>
+    <string name="join_game">Join Game</string>
+    <string name="start">Start</string>
+    <string name="select_category">Select Category\n(current database : %s)</string>
+    <string name="category">Category</string>
+    <string name="proxy_warning">Currently multiplayer game is not supported on proxy network.</string>
+    <string name="game_progress">Progress: %d %%</string>
+    <string name="score">Score</string>
+    <string name="skip">Skip</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="time_left">Time Left : %d sec</string>
+    <string name="next_question_in">%d sec …</string>
+    <string name="game_over">Game Over</string>
+    <string name="game_score_single">You scored %d out of %d in \'%s\' category.</string>
 </resources>

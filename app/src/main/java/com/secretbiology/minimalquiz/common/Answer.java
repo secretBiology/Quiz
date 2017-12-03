@@ -1,17 +1,10 @@
-package com.secretbiology.quiz;
-
-/**
- * Created by Rohit Suratekar on 29-11-17 for Quiz.
- * All code is released under MIT License.
- */
+package com.secretbiology.minimalquiz.common;
 
 public class Answer {
     private String text;
-    private boolean isCorrect = false;
-    private boolean isSelected = false;
-
-    public Answer() {
-    }
+    private boolean isCorrect;
+    private boolean isSelected;
+    private boolean showAnswer;
 
     public Answer(String text) {
         this.text = text;
@@ -44,5 +37,13 @@ public class Answer {
 
     public void setSelected(boolean selected) {
         isSelected = selected;
+    }
+
+    public boolean showAnswer() {
+        return showAnswer;
+    }
+
+    public void setShowAnswer(boolean showAnswer) {
+        this.showAnswer = showAnswer;
     }
 }
