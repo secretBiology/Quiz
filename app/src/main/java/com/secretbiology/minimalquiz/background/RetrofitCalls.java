@@ -1,4 +1,4 @@
-package com.secretbiology.quiz.background;
+package com.secretbiology.minimalquiz.background;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

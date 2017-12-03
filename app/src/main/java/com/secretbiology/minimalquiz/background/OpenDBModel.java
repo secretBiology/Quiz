@@ -1,4 +1,4 @@
-package com.secretbiology.quiz.background;
+package com.secretbiology.minimalquiz.background;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

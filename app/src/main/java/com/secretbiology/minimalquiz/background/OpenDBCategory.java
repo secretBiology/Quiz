@@ -1,4 +1,4 @@
-package com.secretbiology.quiz.background;
+package com.secretbiology.minimalquiz.background;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -24,7 +24,7 @@ public enum OpenDBCategory {
     MUSIC(12),
     BOARD_GAMES(16),
     GEOGRAPHY(22),
-    CELEBRATIES(26),
+    CELEBRITIES(26),
     POLITICS(24),
     HISTORY(23),
     ART(25),
@@ -56,5 +56,14 @@ public enum OpenDBCategory {
 
     public static OpenDBCategory randomCategory() {
         return VALUES.get(RANDOM.nextInt(SIZE));
+    }
+
+    public static OpenDBCategory getCategoryByID(int type) {
+        for (OpenDBCategory c : OpenDBCategory.values()) {
+            if (c.getCategory() == type) {
+                return c;
+            }
+        }
+        return GENERAL_KNOWLEDGE;
     }
 }
